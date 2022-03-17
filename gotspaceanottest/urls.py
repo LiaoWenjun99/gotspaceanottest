@@ -20,9 +20,4 @@ import LibrarySpace.views
 
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('', Libraryspace.views.index, name='index'),
-    path('add', LibrarySpace.views.add, name='add'),
-    path('view/<str:id>', Libraryspace.views.view, name='view'),
-    path('edit/<str:id>', LibrarySpace.views.edit, name='edit'),
 ]
